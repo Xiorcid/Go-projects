@@ -25,5 +25,5 @@ func main() {
 
 	p = (a + b + c) / 2
 
-	fmt.Printf("Area: %f", math.Sqrt(p*(p-a)*(p-b)*(p-c)))
+	fmt.Printf("Area: %f; Perimeter: %f", math.Sqrt(p*(p-a)*(p-b)*(p-c)), a+b+c)
 }
